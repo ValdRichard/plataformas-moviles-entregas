@@ -1,0 +1,73 @@
+html {
+    background-color: #222;
+    color: #ee6;
+}
+
+h1 {
+    text-align: center;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+h1, h2, h3 {
+    color: #eee;
+    text-transform: uppercase;
+}
+
+
+strong {
+    border-bottom: solid 1px #eee; /*Puse la regla de 1px de ancho porque si no, a consideracion mia, la linea se veia muy gruesa*/
+}
+
+.the-force{
+    background-color: #444;
+    font-weight: bold;
+}
+
+.light-side{
+    color: #66f;
+}
+
+.dark-side{
+    color: #ff3;
+}
+
+#og-trilogy{
+    list-style-type: circle;
+}
+
+.movies-list:nth-of-type(2) {
+    padding-left: 4em;
+}
+
+.movies-list:nth-of-type(3) li:last-child{
+    margin-top: 1em;
+}
+
+p:first-of-type::first-line{
+    color: #efe;
+}
+
+h1:hover{
+    color: rgb(0, 0, 0);
+    cursor: default;
+}
+
+a:visited{
+    color: #444;
+}
+
+a:not([href]){ 
+    font-family: cursive;
+}
+
+.movies-list li:nth-of-type(even){
+    background-color: #111;
+}
+
+.movies-list li:nth-of-type(odd){
+    background-color: #333;
+}
+
