@@ -6,6 +6,10 @@
     --font-family: 'Inconsolata', monospace;
 }
 
+html{
+    overflow-y: hidden;
+}
+
 body{
     margin-left: 4vw;
     font-family: var(--font-family);
